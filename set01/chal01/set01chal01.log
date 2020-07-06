@@ -1,0 +1,13 @@
+2020-07-06 19:07:37,483 - DEBUG - Start of challenge
+2020-07-06 19:07:37,497 - DEBUG - Input string is 49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d
+2020-07-06 19:07:37,497 - DEBUG - Converting string to base64
+2020-07-06 19:07:37,497 - DEBUG - Inside hextoBase64
+2020-07-06 19:07:37,497 - DEBUG - Value of s is: 49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d
+2020-07-06 19:07:37,497 - DEBUG - Returned value is: b"I'm killing your brain like a poisonous mushroom"
+2020-07-06 19:07:37,497 - DEBUG - Encoding string to Base64
+2020-07-06 19:07:37,497 - DEBUG - Inside encodeBase64
+2020-07-06 19:07:37,497 - DEBUG - Value of s is: b"I'm killing your brain like a poisonous mushroom"
+2020-07-06 19:07:37,497 - DEBUG - Returned value is: SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
+2020-07-06 19:07:37,497 - DEBUG - Verifying result
+2020-07-06 19:07:37,497 - DEBUG - Result string is SSdtIGtpbGxpbmcgeW91ciBicmFpbiBsaWtlIGEgcG9pc29ub3VzIG11c2hyb29t
+2020-07-06 19:07:37,497 - DEBUG - End of challenge
