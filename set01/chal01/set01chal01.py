@@ -16,7 +16,7 @@ def expectedResult(s):
     return (s == res)
 
 
-def hextobase64(s):
+def hextoascii(s):
     logging.debug("Inside hextoBase64")
     logging.debug("Value of s is: {}".format(s))
     return binascii.unhexlify(s)
@@ -32,8 +32,8 @@ logging.basicConfig(filename='set01chal01.log', level=logging.DEBUG, format='%(a
 logging.debug('Start of challenge')
 Input = '49276d206b696c6c696e6720796f757220627261696e206c696b65206120706f69736f6e6f7573206d757368726f6f6d'
 logging.debug('Input string is {}'.format(Input))
-logging.debug('Converting string to base64')
-rawString = hextobase64(Input)
+logging.debug('Converting string to ascii')
+rawString = hextoascii(Input)
 logging.debug('Returned value is: {}'.format(rawString))
 
 logging.debug('Encoding string to Base64')
