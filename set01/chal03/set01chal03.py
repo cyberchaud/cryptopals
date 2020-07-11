@@ -64,15 +64,15 @@ for key in freqs:
 
 logging.debug(freqtable)
 
-print(listBytes[0])
+#print(listBytes[0])
 hightotal = 0
 highest = []
 
 for x in listBytes:
     #print(x[2])
     total = 0
-    print(total)
-    print(x)
+    #print(total)
+    #print(x)
     for b in x[2]:
         #print(b)
         #print(freqtable.get(chr(b), 0))
